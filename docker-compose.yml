@@ -5,9 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      image: index:latest
+    image: index:latest
 
     container_name: index
     ports:
-      - "5000:5000"
+      - "5001:5001"
     restart: unless-stopped
